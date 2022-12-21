@@ -1,0 +1,40 @@
+.login {
+    background-image: url("../../assets/bg-01.jpg");
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+    z-index: 1;
+}
+
+.lContainer {
+    border-radius: 10px;
+    background-color: #fff;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    min-width: 300px;
+    padding: 20px;
+}
+
+.lInput {
+    font-family: Ubuntu-Regular;
+    font-size: 16px;
+    color: #555555;
+    line-height: 1.2;
+    padding: 10px 10px;
+}
+
+.lInput:focus {
+    outline: none;
+}
+
+.lContainer h1 {
+    margin-bottom: 15px;
+}
